@@ -341,7 +341,7 @@ body:has(.floppy_dialog[open]) {
   .card_label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--shadow-color);
-    /* text-stroke: 1px var(--shadow-color); */
+    text-stroke: 1px var(--shadow-color);
   }
 }
 
@@ -353,16 +353,11 @@ body:has(.floppy_dialog[open]) {
   .header {
     width: 100%;
   }
-/*
-  .main {
-    row-gap: 54px;
-  }
-*/
+
   .header {
     margin-top: 27vw;
     margin-bottom: 28vw;
-        /* aspect-ratio: 235 / 109; */
-    block-size: 325px;
+    padding-block: 30px;
   }
 
   .header_title {
