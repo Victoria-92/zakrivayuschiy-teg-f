@@ -128,7 +128,7 @@
 }
 
 .article_text:not(:last-of-type) {
-  margin-block-end: 27px;
+  margin-block-end: 25px;
 }
 
 .article_text:last-of-type {
@@ -175,19 +175,20 @@
 }
 
 .button_block {
+  margin-top: 25px;
   display: flex;
   align-self: end;
   gap: 7px;
 }
 
 .floppy_svg {
-  width: 24px;
-  height: 24px;
-}
+    width: 21px;
+    height: 21px;
+  }
 
 .dialog_floppy_svg {
-  width: 50px;
-  height: 50px;
+  width: 39px;
+  height: 39px;
 }
 
 .card__like-button {
@@ -236,7 +237,7 @@
 
   /*line-height: 90%;*/
   /*text-align: center;*/
-  gap: 4px;
+  gap: 8px;
   display: flex;
   /*border: var(--main-border);*/
 }
@@ -388,8 +389,8 @@ body:has(.floppy_dialog[open]) {
   }
 
   .floppy_svg {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
 
   .decorated_button_text {
