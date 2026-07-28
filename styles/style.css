@@ -358,9 +358,8 @@ body:has(.floppy_dialog[open]) {
   }
 
   .header {
-    margin-top: 27vw;
-    margin-bottom: 28vw;
-    padding-block: 30px;
+    margin-block: 100px;
+    padding-block: 122px;
   }
 
   .header_title {
