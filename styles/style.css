@@ -182,8 +182,10 @@
 }
 
 .floppy_svg {
-    width: 21px;
-    height: 21px;
+  color: white;
+  mix-blend-mode: difference;
+  width: 21px;
+  height: 21px;
   }
 
 .dialog_floppy_svg {
